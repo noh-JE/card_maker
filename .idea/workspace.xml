@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65d6cffe-b40f-4689-a55c-5eb081ecc4eb" name="디폴트 변경 목록" comment="디폴트 변경 목록">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/login.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/maker/card/card-maker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/maker/card/card-preview.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/maker/card/card-register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/maker/card/card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/maker/maker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/maker/maker.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/color.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/auth_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/auth_service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/firebase.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1oSFldSeVTnFfKtSrMuV9YjOrkN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../router" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="65d6cffe-b40f-4689-a55c-5eb081ecc4eb" name="디폴트 변경 목록" comment="" />
+      <created>1613272237847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613272237847</updated>
+      <workItem from="1613272241537" duration="7419000" />
+      <workItem from="1613394270458" duration="2254000" />
+      <workItem from="1613920504005" duration="24000" />
+      <workItem from="1617760535958" duration="11518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/maker/maker.jsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
