@@ -1,0 +1,17 @@
+@value mediaQuery from '../../common/size.css';
+
+.preview {
+    flex-basis: 50%;
+    background-color: lightpink;
+}
+.title {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .preview {
+        width: 100%;
+    }
+}

@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d6cffe-b40f-4689-a55c-5eb081ecc4eb" name="디폴트 변경 목록" comment="디폴트 변경 목록">
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login/login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login/login.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/maker/card/card-maker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/maker/card/card-preview.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/maker/card/card-register.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/maker/card/card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/maker/maker.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/maker/maker.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/color.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/auth_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/auth_service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/editor/editor.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/preview/preview.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/maker/maker.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/maker/maker.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/maker/maker.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/maker/maker.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +53,12 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IMYME_STUDY\Study\1.React\dream_coding\따라하기\business-card-maker\src\components\preview" />
+      <recent name="D:\IMYME_STUDY\Study\1.React\dream_coding\따라하기\business-card-maker\src\components\editor" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -78,7 +70,7 @@
       <workItem from="1613272241537" duration="7419000" />
       <workItem from="1613394270458" duration="2254000" />
       <workItem from="1613920504005" duration="24000" />
-      <workItem from="1617760535958" duration="11518000" />
+      <workItem from="1617760535958" duration="13512000" />
     </task>
     <servers />
   </component>
