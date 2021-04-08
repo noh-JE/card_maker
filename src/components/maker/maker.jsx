@@ -6,48 +6,53 @@ import Footer from '../footer/footer';
 import Editor from '../editor/editor';
 import Preview from '../preview/preview';
 
-const Maker = ({FileInput, authService}) => {
+const Maker = ({FileInput, authService, cardRepository}) => {
+    const historyState = useHistory().state;
     const [cards, setCards] = useState({
         //objedt 형태로 관리
-        '1': {
-            id: '1',
-            name: 'mong',
-            company: 'samsung',
-            theme: 'dark',
-            email: 'ellie@ellie.com',
-            message: 'go for it',
-            fileName: null,
-            fileURL: null
-        },
-        '2': {
-            id: '2',
-            name: 'mong',
-            company: 'samsung',
-            theme: 'light',
-            email: 'ellie@ellie.com',
-            message: 'go for it',
-            fileName: null,
-            fileURL: null
-        },
-        '3': {
-            id: '3',
-            name: 'mong',
-            company: 'samsung',
-            theme: 'colorful',
-            email: 'ellie@ellie.com',
-            message: 'go for it',
-            fileName: null,
-            fileURL: null
-        }
+        // '1': {
+        //     id: '1',
+        //     name: 'mong',
+        //     company: 'samsung',
+        //     theme: 'dark',
+        //     email: 'ellie@ellie.com',
+        //     message: 'go for it',
+        //     fileName: null,
+        //     fileURL: null
+        // },
+        // '2': {
+        //     id: '2',
+        //     name: 'mong',
+        //     company: 'samsung',
+        //     theme: 'light',
+        //     email: 'ellie@ellie.com',
+        //     message: 'go for it',
+        //     fileName: null,
+        //     fileURL: null
+        // },
     });
+    const [userId, setUserId] = useState(historyState && historyState.id);
 
     const history = useHistory();
     const onLogout = () => {
         authService.logout();
     };
+
+    useEffect(() => {
+        if(!userId) {
+            return
+        }
+        const stopSync = cardRepository.syncCards(userId, cards => {
+            setCards(cards);
+        })
+        return () => stopSync();
+    }, [userId]);
+
     useEffect(() => {
         authService.onAuthChange(user => {
-            if(!user) {
+            if(user) {
+                setUserId(user.uid);
+            } else {
                 history.push('/');
             }
         })
@@ -66,6 +71,7 @@ const Maker = ({FileInput, authService}) => {
             updated[card.id] = card;
             return updated;
         });
+        cardRepository.saveCard(userId, card);
     };
     const deleteCard = (card) => {
         setCards(cards => {
