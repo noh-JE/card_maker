@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d6cffe-b40f-4689-a55c-5eb081ecc4eb" name="디폴트 변경 목록" comment="디폴트 변경 목록">
-      <change afterPath="$PROJECT_DIR$/src/components/button/button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card/card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card/card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card_edit_form/card_edit_form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/card_edit_form/card_edit_form.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/image_file_input/image_file_input.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/image_file_input/image_file_input.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/color.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/editor/editor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/editor.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/editor/editor.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/editor.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/maker/maker.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/maker/maker.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview/preview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview/preview.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview/preview.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview/preview.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IMYME_STUDY\Study\1.React\dream_coding\따라하기\business-card-maker" />
       <recent name="D:\IMYME_STUDY\Study\1.React\dream_coding\따라하기\business-card-maker\src\components\preview" />
       <recent name="D:\IMYME_STUDY\Study\1.React\dream_coding\따라하기\business-card-maker\src\components\editor" />
     </key>
@@ -78,7 +66,8 @@
       <workItem from="1613272241537" duration="7419000" />
       <workItem from="1613394270458" duration="2254000" />
       <workItem from="1613920504005" duration="24000" />
-      <workItem from="1617760535958" duration="22494000" />
+      <workItem from="1617760535958" duration="24246000" />
+      <workItem from="1617848588308" duration="2171000" />
     </task>
     <servers />
   </component>
