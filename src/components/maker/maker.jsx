@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, useCallback} from 'react';
 import {useHistory} from 'react-router-dom';
 import styles from '../maker/maker.module.css';
 import Header from '../header/header';
@@ -34,9 +34,10 @@ const Maker = ({FileInput, authService, cardRepository}) => {
     const [userId, setUserId] = useState(historyState && historyState.id);
 
     const history = useHistory();
-    const onLogout = () => {
+    const onLogout = useCallback(() => { //한 번 만들어진 함수를 계속 재사용한다.
         authService.logout();
-    };
+    }, [authService]);
+
 
     useEffect(() => {
         if(!userId) {
