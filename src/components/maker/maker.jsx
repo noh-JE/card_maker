@@ -6,7 +6,7 @@ import Footer from '../footer/footer';
 import Editor from '../editor/editor';
 import Preview from '../preview/preview';
 
-const Maker = ({authService}) => {
+const Maker = ({FileInput, authService}) => {
     const [cards, setCards] = useState({
         //objedt 형태로 관리
         '1': {
@@ -16,7 +16,7 @@ const Maker = ({authService}) => {
             theme: 'dark',
             email: 'ellie@ellie.com',
             message: 'go for it',
-            fileName: 'ellie',
+            fileName: null,
             fileURL: null
         },
         '2': {
@@ -26,7 +26,7 @@ const Maker = ({authService}) => {
             theme: 'light',
             email: 'ellie@ellie.com',
             message: 'go for it',
-            fileName: 'ellie',
+            fileName: null,
             fileURL: null
         },
         '3': {
@@ -36,7 +36,7 @@ const Maker = ({authService}) => {
             theme: 'colorful',
             email: 'ellie@ellie.com',
             message: 'go for it',
-            fileName: 'ellie',
+            fileName: null,
             fileURL: null
         }
     });
@@ -78,7 +78,13 @@ const Maker = ({authService}) => {
         <section className={styles.maker}>
             <Header onLogout={onLogout} />
                 <div className={styles.container}>
-                    <Editor cards={cards} addCard={createOrupdatedCard} updatedCard={createOrupdatedCard} deleteCard={deleteCard} />
+                    <Editor
+                        FileInput={FileInput}
+                        cards={cards}
+                        addCard={createOrupdatedCard}
+                        updatedCard={createOrupdatedCard}
+                        deleteCard={deleteCard}
+                    />
                     <Preview cards={cards} />
                 </div>
             <Footer />

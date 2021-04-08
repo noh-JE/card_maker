@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d6cffe-b40f-4689-a55c-5eb081ecc4eb" name="디폴트 변경 목록" comment="디폴트 변경 목록">
+      <change afterPath="$PROJECT_DIR$/src/service/image_uploader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card_add_form/card_add_form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card_add_form/card_add_form.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/card_edit_form/card_edit_form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card_edit_form/card_edit_form.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/editor/editor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/editor.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/image_file_input/image_file_input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/image_file_input/image_file_input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/image_file_input/image_file_input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/image_file_input/image_file_input.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/maker/maker.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/maker/maker.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview/preview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview/preview.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +23,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1oSFldSeVTnFfKtSrMuV9YjOrkN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -37,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../router" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Bandicam/dreamcoding/10.Business Card Maker Project Coding/소스/card-maker-uploading/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -69,7 +84,7 @@
       <workItem from="1613394270458" duration="2254000" />
       <workItem from="1613920504005" duration="24000" />
       <workItem from="1617760535958" duration="24246000" />
-      <workItem from="1617848588308" duration="4525000" />
+      <workItem from="1617848588308" duration="10568000" />
     </task>
     <servers />
   </component>
